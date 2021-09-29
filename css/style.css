@@ -35,7 +35,6 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-
   /*Req 1*/
 }
 
@@ -64,8 +63,9 @@ a:link{
 }
 
 /*Req 5*/
-/*Add selector and rule here*/
-
+*:focus{
+  border: 3px dashed #417243;
+}
 
 
 td{
@@ -77,6 +77,7 @@ td{
   color: #FFFFFF;
 
 }
+
 
 .rowhead{
 
