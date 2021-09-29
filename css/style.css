@@ -26,7 +26,10 @@ caption{
 
 body{
   font-family: "Andika";
-  
+  background-image: url('file:///Users/sulaymanahmed/Documents/GitHub/homework4-2021/images/pigeon-background.JPEG');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
@@ -37,18 +40,27 @@ body{
 }
 
 h1{
+  text-align: center;
+  line-height: 200%;
   color: #c12258;
   font-size: 2em;
-
   /*Req 2*/
 }
 
 p{
-  
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-top: 15px;
 }
 
-a{
-  
+a:link{
+  font-size: 1em;
+  color: #B92751;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-style: wavy;
+  text-decoration-color: #B92751;
 }
 
 /*Req 5*/
