@@ -25,7 +25,8 @@ caption{
 /*END STARTER CODE*/
 
 body{
-  font-family: Andika;
+  font-family: "Andika";
+  
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
