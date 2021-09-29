@@ -86,6 +86,8 @@ td{
 
 table{
     border: 5px solid #000000;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 /* I gave you the selector, but not the property-value pair. 
