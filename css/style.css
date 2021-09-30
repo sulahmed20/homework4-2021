@@ -81,7 +81,7 @@ td{
 .colhead{
   color: #FFFFFF;
   background-color: #7e0825;
-  width: 125px;
+  min-width: 125px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -129,10 +129,17 @@ tbody tr:last-child td:last-child{
   border-bottom-right-radius: 50px;
 }
 
+tr:hover{
+  background-color: #7e082525;
+}
+
 
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position: static;
+  bottom: 0vh;
 }
