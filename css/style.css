@@ -92,6 +92,7 @@ td{
 .rowhead{
   border-top: 2px solid black;
   border-right: 2px solid black;
+  padding-bottom: 10px;
 }
 
 
@@ -99,6 +100,7 @@ table{
     border: 5px solid #000000;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50px;
 }
 
 /* I gave you the selector, but not the property-value pair. 
@@ -129,8 +131,8 @@ tbody tr:last-child td:last-child{
   border-bottom-right-radius: 50px;
 }
 
-tr:hover{
-  background-color: #7e082525;
+table tr:hover{
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 
@@ -140,6 +142,8 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: static;
+  position: fixed;
   bottom: 0vh;
 }
+
+
