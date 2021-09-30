@@ -25,7 +25,8 @@ caption{
 /*END STARTER CODE*/
 
 body{
-  font-family: "Andika";
+  font-family: "Andika", sans-serif;
+  background-color: #DDDDDD;
   background-image: url('file:///Users/sulaymanahmed/Documents/GitHub/homework4-2021/images/pigeon-background.JPEG');
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -55,11 +56,11 @@ p{
 
 a:link{
   font-size: 1em;
-  color: #B92751;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-decoration-style: wavy;
-  text-decoration-color: #B92751;
+  text-decoration-color: #B21F50;
 }
 
 /*Req 5*/
