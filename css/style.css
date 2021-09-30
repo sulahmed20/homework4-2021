@@ -86,6 +86,8 @@ td{
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-transform: uppercase;
+  text-align:center;
 }
 
 
@@ -93,6 +95,7 @@ td{
   border-top: 2px solid black;
   border-right: 2px solid black;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 
@@ -137,13 +140,14 @@ table tr:hover{
 
 
 footer{
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
   position: fixed;
-  bottom: 0vh;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 
