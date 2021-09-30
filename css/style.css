@@ -69,7 +69,8 @@ a:link{
 
 
 td{
-  
+  text-align: center
+
 }
 
 
@@ -86,16 +87,41 @@ td{
 
 table{
     border: 5px solid #000000;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-top-left-radius: 50px;
+}
+
+thead tr:first-child th:last-child{
+  border-top-right-radius: 50px;
+}
+
+thead tr:first-child{
+  background-color: #7e0825;
+}
 
 /*Add selectors and rules here*/
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 50px;
+}
 
+tbody tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+
+tbody tr:nth-child(odd){
+  background-color: transparent;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 50px;
+}
 
 
 footer{
