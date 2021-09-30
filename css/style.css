@@ -69,19 +69,29 @@ a:link{
 
 
 td{
-  text-align: center
-
+  text-align: center;
+  border-top: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
 .colhead{
   color: #FFFFFF;
-
+  background-color: #7e0825;
+  width: 125px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
 .rowhead{
-
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 
@@ -99,10 +109,6 @@ thead tr:first-child th:first-child{
 
 thead tr:first-child th:last-child{
   border-top-right-radius: 50px;
-}
-
-thead tr:first-child{
-  background-color: #7e0825;
 }
 
 /*Add selectors and rules here*/
